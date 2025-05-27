@@ -16,7 +16,7 @@ export default function Home() {
         </div>
         <section className="my-5 md:my-16 max-w-5xl mx-auto p-5">
           <h1 className="text-center my-5 text-4xl uppercase">About Us</h1>
-          <p className="text-lg">Audio Collective Group is a family of passionate brands united by one mission: to empower the people who make music. As the parent company to a diverse range of musical recording equipment brands - from high-end boutique to budget-friendly - we believe that every musician, producer, engineer, and sound designer deserves access to tools built with integrity and quality. Whether it's in a world-class studio, a home setup, or on stage, our brands are behind the gear that makes musical moments possible.</p>
+          <p className="text-xl">Audio Collective Group is a family of passionate brands united by one mission: to empower the people who make music. As the parent company to a diverse range of musical recording equipment brands - from high-end boutique to budget-friendly - we believe that every musician, producer, engineer, and sound designer deserves access to tools built with integrity and quality. Whether it's in a world-class studio, a home setup, or on stage, our brands are behind the gear that makes musical moments possible.</p>
         </section>
         <section>
           <h2 className="brand-band">Our Brands</h2>
