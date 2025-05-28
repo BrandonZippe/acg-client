@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Form from "./form";
 
 export default function Home() {
   return (
@@ -60,6 +61,8 @@ export default function Home() {
             <h1 className="text-center my-5 text-4xl uppercase">Our Mission</h1>
             <p className="text-lg">At Audio Collective Group, our mission is to strengthen the music industry by supporting and scaling the brands that fuel it. We provide a shared backbone of operational excellence so that each brand can focus on what matters most: designing exceptional products for musicians, producers, engineers, and creators at every level. When we lift up the brands behind the music, we lift up the music itself.</p>
           </div>
+          <h1 className="text-center my-5 text-4xl uppercase">Contact Us</h1>
+          <Form />
         </section>
        
       </main>
