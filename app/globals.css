@@ -41,3 +41,20 @@ h1,h2 {
 .body-bg {
   background: #c9c8c3;
 }
+
+.contactForm label {@apply hidden;}
+.contactForm input,
+.contactForm textarea {
+  @apply bg-white p-2 my-2;
+  border: solid 1px #999;
+}
+
+.button {
+  @apply text-white w-42 p-2 mx-auto;
+  background: #224065;
+}
+
+footer {
+  @apply p-5;
+  background: #1b1b1b;
+}

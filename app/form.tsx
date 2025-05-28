@@ -12,119 +12,86 @@ export default function Form() {
     return (
         <>
        
-        <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:flex-row contactForm w-full mx-auto p-5">
         
-        <div className="w-3/5">
+        <div className="w-full md:w-1/3 mx-auto mb-10">
             <form onSubmit={handleSubmit} className="">
             {/* <input name="subject" value={subject} className="hidden" readOnly/> */}
-        
-                <div className="">
-                    <div className="w-full flex flex-row justify-between">
-                        <label htmlFor="firstName">
-                        First Name
+                <div className="w-full flex flex-col justify-between">
+                    <label htmlFor="name">
+                        Name
                         </label>
                         <input
-                        id="firstName"
+                        id="name"
                         type="text" 
-                        name="firstName"
-                        placeholder="First Name"
+                        name="name"
+                        placeholder="Name"
                         required
-                        className="md:w-1/2 mr-1"
+                        className="w-full"
                         />
                         <ValidationError 
-                        prefix="First Name" 
+                        prefix="Name" 
                         field="firstName"
                         errors={state.errors}
                         />
-                        <label htmlFor="lastName">
-                        Last Name
-                        </label>
-                        <input
-                        id="lastName"
-                        type="text" 
-                        name="lastName"
-                        placeholder="Last Name"
-                        required
-                        className="md:w-1/2"
-                        />
-                        <ValidationError 
-                        prefix="Last Name" 
-                        field="lastName"
-                        errors={state.errors}
-                        />
-                    </div>
+                    <label htmlFor="email">
+                    Email Address
+                    </label>
+                    <input
+                    id="email"
+                    type="email" 
+                    name="email"
+                    placeholder='Email'
+                    className="w-full"
+                    required
+                    />
+                    <ValidationError 
+                    prefix="Email" 
+                    field="email"
+                    errors={state.errors}
+                    />
+                    <label htmlFor="company">
+                    Company Name
+                    </label>
+                    <input
+                    id="company"
+                    type="company" 
+                    name="company"
+                    placeholder='Company Name'
+                    className="w-full"
+                    required
+                    />
+                    <ValidationError 
+                    prefix="company" 
+                    field="company"
+                    errors={state.errors}
+                    />
+                    <label htmlFor="message">
+                    Message 
+                    </label>
+                    <textarea
+                    id="message"
+                    rows={10}
+                    cols={50}
+                    name="message"
+                    placeholder='Message'
+                    className="w-full"
+                    required
+                    />
+                    <ValidationError 
+                    prefix="message" 
+                    field="message"
+                    errors={state.errors}
+                    />
                 </div>
-
-
-        
-        <div className="">
-            <div className="w-full flex flex-row justify-between">
-                <label htmlFor="email">
-                Email Address
-                </label>
-                <input
-                id="email"
-                type="email" 
-                name="email"
-                placeholder='Email'
-                className="w-full md:w-1/2 mr-1"
-                required
-                />
-                <ValidationError 
-                prefix="Email" 
-                field="email"
-                errors={state.errors}
-                />
-                <label htmlFor="company">
-                Company Name
-                </label>
-                <input
-                id="company"
-                type="company" 
-                name="company"
-                placeholder='Company Name'
-                className="w-full md:w-1/2"
-                required
-                />
-                <ValidationError 
-                prefix="company" 
-                field="company"
-                errors={state.errors}
-                />
-            </div>
-        </div>
-
-        <div className="">
-            <div className="w-full flex flex-row justify-between">
-                <label htmlFor="school">
-                School 
-                </label>
-                <input
-                id="school"
-                type="text" 
-                name="school"
-                placeholder='School'
-                className="w-full md:w-1/2"
-                required
-                />
-                <ValidationError 
-                prefix="school" 
-                field="school"
-                errors={state.errors}
-                />
-            </div>
+                <button type="submit" disabled={state.submitting} className="button">
+                <span className="copy uppercase">Submit</span>
+                </button>
+            </form>
         </div>
 
 
-
-        <button type="submit" disabled={state.submitting} className="button-orange my-6">
-          <span className="copy uppercase">Submit</span>
-        </button>
-      </form>
     </div>
-
-
-        </div>
         
         </>
        
