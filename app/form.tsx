@@ -7,7 +7,7 @@ export default function Form() {
     const [state, handleSubmit] = useForm("mkgbnjeo")
 
     if (state.succeeded) {
-        return <p>Thanks for contacting us! We will get in touch with you shortly.</p>;
+        return <p className="text-center text-xl py-10">Thanks for contacting us! We will get in touch with you shortly.</p>;
     }
     return (
         <>
