@@ -44,7 +44,7 @@ export default function Home() {
               priority
             />
           </a>
-          <a href="https://www.gothamaudio.us/" target="_blank" className="w-full md:w-1/3">
+          <a href="https://www.gothamaudiousa.com/" target="_blank" className="w-full md:w-1/3">
             <Image
               className="w-full"
               src="/ACG_Logo-Gotham.jpg"
