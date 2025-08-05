@@ -24,7 +24,7 @@ export default function Home() {
         </section>
         <section>
           <div className="flex flex-col md:flex-row">
-            <a href="https://warmaudio.com" target="_blank" className="w-full md:w-1/3">
+            <a href="https://warmaudio.com" target="_blank" className="w-full md:w-1/4">
               <Image
                 className="w-full"
                 src="/ACG_Logo-Warm.jpg"
@@ -34,7 +34,7 @@ export default function Home() {
                 priority
               />
             </a>
-          <a href="https://rocknrollercart.com/" target="_blank" className="w-full md:w-1/3">
+          <a href="https://rocknrollercart.com/" target="_blank" className="w-full md:w-1/4">
             <Image
               className="w-full "
               src="/ACG_Logo-RR.jpg"
@@ -44,10 +44,20 @@ export default function Home() {
               priority
             />
           </a>
-          <a href="https://www.gothamaudiousa.com/" target="_blank" className="w-full md:w-1/3">
+          <a href="https://www.gothamaudiousa.com/" target="_blank" className="w-full md:w-1/4">
             <Image
               className="w-full"
               src="/ACG_Logo-Gotham.jpg"
+              alt="Warm Audio"
+              width={500}
+              height={600}
+              priority
+            />
+          </a>
+          <a href="https://popaudio.co.uk/" target="_blank" className="w-full md:w-1/4">
+            <Image
+              className="w-full"
+              src="/ACG_Logo-Pop.jpg"
               alt="Warm Audio"
               width={500}
               height={600}
