@@ -1,0 +1,41 @@
+import Image from "next/image";
+import Header from "../header";
+
+export default function Home() {
+  return (
+    <div className="">
+      <main className="">
+        <Header />
+        <section className="pr-wrap">
+          <h1 className="text-center my-5 text-4xl uppercase">Warm Audio Unleashes Dual Overdrive Powerhouses: Throne of Tone & Tube Squealer</h1>
+          <p className="text-xl text-center"> <a href="https://warmaudio.com">Warm Audio</a> pays tribute to two of the most legendary overdrive sound profiles of all time, delivering multiple sought-after vintage-accurate tones from each pedal and robust functionality to meet the demands of modern players and pedalboards.</p>
+          <p><strong>Austin, TX - October 8, 2025 -</strong> Warm Audio, the leading manufacturer of faithful recreations of legendary recording gear and guitar pedals, today announces the release of two new effects pedals. Introducing the Tube Squealer, a faithful recreation of not one, not two, but three of the most celebrated mid-gain overdrives known for driving tube amps into blissful tonal saturation. Select between authentic 808, TS9, and TS10 circuits, each capturing the legendary Japanese designs that shaped decades of guitar tone. Additionally, Warm Audio is releasing the Throne of Tone, a dual-sided overdrive that combines two of the greatest British amp-inspired blues circuits of all time in one pedal. Designed for ultimate flexibility, Throne of Tone offers two classic voicings, low/high gain settings, and three drive modes, including boost, overdrive, and distortion, per side. The Tube Squealer (MSRP $149 | 159 € inc. VAT | 139 £ inc. VAT) is available exclusively at Guitar Center in the US and authorized retailers worldwide. Throne of Tone (MSRP $229 |  € 249 inc.VAT | 219 £ inc. VAT) is available at all authorized Warm Audio retailers worldwide.</p>
+          <p>“These are two of the most popular styles of overdrive in guitar history, and we’re excited to add them to the Warm lineup. We maintained the Warm formula of vintage-accurate tone and premium components, but we went a step further to combine some of the greatest iterations of these tones along with feature-rich functionality into each,” said Bryce Young, founder & president of Warm Audio. “For Tube Squealer, we couldn’t limit ourselves to just one of the classic pedal tones so we built the most legendary three into one pedal. Then we added critical controls to make it a must-have on any pedalboard.”</p>
+          <p>Young continues, “For the Throne of Tone, we decided to honor the 3-knob vintage pedal that inspired a whole wave of boutique recreations, and added a second side plus alternative voicing to deliver the most unobtainable boutique blues OD. With these unique voicing options, plus added features for presence, gain structure, and gain amount,  you can create dozens of combinations previously unavailable in addition to getting the authentic sound of the originals - all in one stomp box!”</p>
+          <h2 className="my-5 text-2xl uppercase">Tube Squealer</h2>
+          <p>The <strong>Tube Squealer</strong> is a faithful recreation of three legendary, tube-driving overdrives built with premium, 100% analog circuitry and loaded with modern, rig-ready features. Its three selectable voicings—<strong>808, TS9, and TS10</strong>—switch the circuitry to authentically recreate the revered Japanese designs that shaped guitar tones from the late ’70s through the late ’80s. The <strong>808</strong> delivers the earliest iteration of the classic overdrive, the <strong>TS9</strong> captures the most produced and widely recognized version, and the <strong>TS10</strong> revives an underrated circuit that continues to gain respect among tone chasers. These circuits, faithfully recreated in the Tube Squealer, have powered some of the most iconic sounds in history, heard on countless records and stages worldwide.</p>
+          <p>Taking the mid-gain, tube-amp-driving concept even further, the Tube Squealer adds modern flexibility to suit any setup. A <strong>mix knob</strong> lets players blend clean and driven signals for precise tone shaping, while a <strong>pickup-voicing selector</strong> optimizes response for single-coils or humbuckers. An <strong>external voltage booster</strong> instantly increases headroom for more dynamic tones before saturation kicks in. Inside, the Tube Squealer features <strong>JRC4558 op-amps, discrete transistors and diodes, and premium JFETs</strong>; components chosen to preserve the character and response of the originals. With <strong>asymmetrical clipping</strong> true to the first-of-its-kind topology, the Tube Squealer delivers three iconic overdrives in one pedal, making it a versatile, high-value overdrive that never needs to leave your board.</p>
+          <h2 className="my-5 text-2xl uppercase">Throne of Tone</h2>
+          <p>The <strong>Throne of Tone</strong> pays tribute to the greatest British Blues sonic profiles in all of guitar history, delivering the signature mid-gain amp “breaking” tone found on the most celebrated vintage amps and boutique pedal recreations. This dual-sided pedal offers <strong>two classic voicings</strong>, each with <strong>low and high gain levels</strong> and <strong>three drive modes</strong>: boost, overdrive, and distortion, making it easy to move from subtle breakup to saturated lead tones without ever diving through menus. Like the original amps and the pedals they inspired, the Throne of Tone excels at British-style breakup, with <strong>symmetrical clipping</strong> that captures the feel of classic tube amps pushed beyond their clean limits.</p>
+          <p>For even greater tone-shaping, each side of the Throne of Tone features an independent <strong>presence control</strong> (500Hz–2.3kHz) alongside the standard tone knob. A rear-mounted <strong>external voltage doubler</strong> (9V–18V) adds extra headroom on demand, while its 100%  <strong>true bypass switching</strong>, including the send/return jacks,  enables the ability to add a pedal in between the circuits. Every feature is externally adjustable for quick changes on the fly, with no need to open the enclosure. Inside, <strong>24 diodes</strong> and <strong>premium JRC4580 and TL072 op-amps</strong> power two fully analog circuits, delivering uncompromising tone in a versatile, performance-ready package.</p>
+          <p>Like all Warm Audio gear, every single Tube Squealer and Throne of Tone are meticulously hand-tested and inspected by trained technicians with a passion for making music in Austin, TX. </p>
+          <h2 className="my-5 text-2xl uppercase">Availability & Pricing:</h2>
+          <ul>
+            <li>Tube Squealer: MSRP $149 | 159 € inc. VAT | 139 £ inc. VAT</li>
+            <ul>
+                <li>US: Guitar Center Exclusive</li>
+                <li>Worldwide: All authorized Warm Audio retailers</li>
+            </ul>
+            <li>Throne of Tone: MSRP $229 |  € 249 inc.VAT | 219 £ inc. VAT</li>
+            <ul>
+                <li>US & Worldwide: All authorized Warm Audio retailers</li>
+            </ul>
+          </ul>
+          <p>For more information, visit <a href="www.warmaudio.com/tube-squealer">www.warmaudio.com/tube-squealer</a> & <a href="www.warmaudio.com/throne-of-tone">www.warmaudio.com/throne-of-tone</a>.</p>
+          <h2 className="my-5 text-2xl uppercase">About Warm Audio</h2>
+          <p>Warm Audio began in 2011 in founder Bryce Young’s garage upon the simple principle of building high-end recording products that were sonically equal to renowned products of the past, but to also make them affordable. Warm Audio is now an Inc. 5000 company and industry-leading manufacturer of classic-inspired preamps, compressors, limiters, equalizers, microphones, guitar pedals, and more. Headquartered in Austin, TX, Warm Audio houses state-of-the-art recording facilities with two world-class recording studios where the team applies the “Warm Formula” of design to every product by ensuring that they deliver the very best in legendary sound at unprecedented value. For more information, visit www.warmaudio.com.</p>
+        </section>
+      </main>
+    </div>
+  );
+}

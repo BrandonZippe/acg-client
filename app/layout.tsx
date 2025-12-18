@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import Footer from "./footer";
 
 export const metadata: Metadata = {
   title: "Audio Collective Group",
@@ -18,6 +18,7 @@ export default function RootLayout({
         className="antialiased"
       >
         {children}
+        <Footer />
       </body>
     </html>
   );

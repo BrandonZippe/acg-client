@@ -58,3 +58,63 @@ footer {
   @apply p-5;
   background: #1b1b1b;
 }
+
+footer p {
+    color: #bcb5a8;
+}
+
+.pr-wrap {
+  @apply my-5 md:my-16 max-w-3xl mx-auto p-5;
+}
+
+.pr-wrap p {
+  @apply mb-5;
+}
+
+.pr-wrap a {
+  @apply underline;
+  color: #224065;
+}
+
+.pr-wrap li {
+  @apply mb-5 ml-10;
+}
+
+.pr-wrap ul {
+  @apply list-disc;
+}
+
+.pr-wrap ul ul {
+  @apply ml-15;
+  list-style: circle;
+}
+
+.pr-links {
+  @apply mt-10;
+}
+
+.pr-links a:hover {
+  @apply underline;
+}
+.pr-links li {
+  @apply relative block my-5 pb-5 w-full;
+  border-bottom: dotted 2px #999;
+}
+.pr-links a {
+  @apply py-5 text-xl;
+}
+
+.pr-links div {
+  @apply relative font-bold;
+  color: #224065;
+}
+
+.pr-links div:after {
+  @apply my-4;
+  display: block;
+  content: "";
+  width: 80px;
+  background-color: #224065;
+  height:2px;
+
+}

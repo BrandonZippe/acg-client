@@ -1,20 +1,12 @@
 import Image from "next/image";
 import Form from "./form";
+import Header from "./header";
 
 export default function Home() {
   return (
     <div className="">
       <main className="">
-        <div>
-          <Image
-            className="w-full"
-            src="/ACGHeader.png"
-            alt="Audio Collective Group"
-            width={1543}
-            height={809}
-            priority
-          />
-        </div>
+        <Header />
         <section className="my-5 md:my-16 max-w-5xl mx-auto p-5">
           <h1 className="text-center my-5 text-4xl uppercase">About Us</h1>
           <p className="text-xl">Audio Collective Group is a family of passionate brands united by one mission: to empower the people who make music. As the parent company to a diverse range of musical recording equipment brands - from high-end boutique to budget-friendly - we believe that every musician, producer, engineer, and sound designer deserves access to tools built with integrity and quality. Whether it's in a world-class studio, a home setup, or on stage, our brands are behind the gear that makes musical moments possible.</p>
@@ -73,6 +65,54 @@ export default function Home() {
           </div>
           <h1 className="text-center my-5 text-4xl uppercase">Contact Us</h1>
           <Form />
+          <div className="md:py-16 max-w-5xl mx-auto p-5">
+            <h1 id="PressReleases" className="text-center my-5 text-4xl uppercase">Press Releases</h1>
+            <ul className="pr-links">
+              <li className="!hidden">
+                <div>December 18, 2025</div>
+                <a href="/audio-collective-group-launches-to-expand-sales-and-distribution-for-music-industry-brands">
+                  Audio Collective Group Launches to Expand Sales & Distribution for Music Industry Brands
+                </a>
+              </li>
+              <li>
+                <div>October 8, 2025</div>
+                <a href="/warm-audio-unleashes-dual-overdrive-powerhouses-throne-of-tone-and-tube-squealer">
+                  Warm Audio Unleashes Dual Overdrive Powerhouses: Throne of Tone & Tube Squealer
+                </a>
+              </li>
+              <li>
+                <div>September 4, 2025</div>
+                <a href="/warm-audio-expands-access-to-true-studio-sound-with-new-junior-and-junior-studio-essentials-series-of-microphones">
+                  Warm Audio Expands Access to True Studio Sound with New “Junior” and “Junior Studio Essentials” Series of Microphones
+                </a>
+              </li>
+              <li>
+                <div>For Immediate Release</div>
+                <a href="/swiss-based-gotham-audio-custom-cables-and-cable-stock-now-available-in-north-and-south-america-through-new-distribution">
+                  Swiss-Based Gotham Audio Custom Cables & Cable Stock Now Available In North & South America Through New Distribution
+                </a>
+              </li>
+              
+              <li>
+                <div>July 16, 2025</div>
+                <a href="/the-number-1-utility-equipment-cart-just-got-better-rocknroller-unveils-next-generation-r9-and-r9xlhd-for-ultimate-gear-transport">
+                The #1 Utility Equipment Cart Just Got Better: RockNRoller® Unveils Next-Generation R9 and R9XLHD for Ultimate Gear Transport
+                </a>
+              </li>
+              <li>
+                <div>January 16, 2025</div>
+                <a href="/rocknroller-announces-the-compact-keystand-the-ultimate-travel-keyboard-stand">
+                 RockNRoller® Announces the Compact Keystand – The Ultimate Travel Keyboard Stand
+                </a>
+              </li>
+              <li>
+                <div>March 18, 2024</div>
+                <a href="/rocknroller-multi-cart-announces-worldwide-licensing-agreement-with-warm-audio">
+                RockNRoller® Multi-Cart® Announces WorldWide Licensing Agreement with Warm Audio
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
        
       </main>
