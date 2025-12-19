@@ -87,7 +87,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <div>For Immediate Release</div>
+                <div>September 2, 2025</div>
                 <a href="/swiss-based-gotham-audio-custom-cables-and-cable-stock-now-available-in-north-and-south-america-through-new-distribution">
                   Swiss-Based Gotham Audio Custom Cables & Cable Stock Now Available In North & South America Through New Distribution
                 </a>
