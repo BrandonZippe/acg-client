@@ -15,11 +15,12 @@ export default function Home() {
           <h2 className="brand-band">Our Brands</h2>
         </section>
         <section>
-          <div className="flex flex-col md:flex-row">
-            <a href="https://warmaudio.com" target="_blank" className="w-full md:w-1/4">
+          <div className="acgBackground">
+            <div className="acgBackgroundInner">
+              <a href="https://warmaudio.com" target="_blank" className="w-full md:w-1/4">
               <Image
                 className="w-full"
-                src="/ACG_Logo-Warm.jpg"
+                src="/WarmLogo.png"
                 alt="Warm Audio"
                 width={500}
                 height={600}
@@ -29,8 +30,8 @@ export default function Home() {
           <a href="https://rocknrollercart.com/" target="_blank" className="w-full md:w-1/4">
             <Image
               className="w-full "
-              src="/ACG_Logo-RR.jpg"
-              alt="Warm Audio"
+              src="/RNRLogo.png"
+              alt="RockNRoller"
               width={500}
               height={600}
               priority
@@ -39,8 +40,39 @@ export default function Home() {
           <a href="https://www.gothamaudiousa.com/" target="_blank" className="w-full md:w-1/4">
             <Image
               className="w-full"
-              src="/ACG_Logo-Gotham.jpg"
-              alt="Warm Audio"
+              src="/GothamLogo.png"
+              alt="Gotham Audio"
+              width={500}
+              height={600}
+              priority
+            />
+          </a>
+          
+          <a href="https://wavebone.com/" target="_blank" className="w-full md:w-1/4">
+            <Image
+              className="w-full"
+              src="/WaveboneLogo.png"
+              alt="Wavebone"
+              width={500}
+              height={600}
+              priority
+            />
+          </a>
+          <a href="https://www.tegeler.com/en-US/Home/Index" target="_blank" className="w-full md:w-1/4">
+            <Image
+              className="w-full"
+              src="/TegelerLogo.png"
+              alt="Tegeler"
+              width={500}
+              height={600}
+              priority
+            />
+          </a>
+          <a href="https://tokaiguitars.com/" target="_blank" className="w-full md:w-1/4">
+            <Image
+              className="w-full"
+              src="/TokaiLogo.png"
+              alt="Tokai Guitars"
               width={500}
               height={600}
               priority
@@ -49,13 +81,14 @@ export default function Home() {
           <a href="https://popaudio.co.uk/" target="_blank" className="w-full md:w-1/4">
             <Image
               className="w-full"
-              src="/ACG_Logo-Pop.jpg"
-              alt="Warm Audio"
+              src="/PopAudioLogo.png"
+              alt="Pop Audio"
               width={500}
               height={600}
               priority
             />
           </a>
+            </div>
           </div>
         </section>
         <section className="body-bg">
@@ -68,7 +101,7 @@ export default function Home() {
           <div className="md:py-16 max-w-5xl mx-auto p-5">
             <h1 id="PressReleases" className="text-center my-5 text-4xl uppercase">Press Releases</h1>
             <ul className="pr-links">
-              <li className="!hidden">
+              <li>
                 <div>December 18, 2025</div>
                 <a href="/audio-collective-group-launches-to-expand-sales-and-distribution-for-music-industry-brands">
                   Audio Collective Group Launches to Expand Sales & Distribution for Music Industry Brands

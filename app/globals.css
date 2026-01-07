@@ -118,3 +118,17 @@ footer p {
   height:2px;
 
 }
+
+.acgBackground {
+  @apply w-full py-20;
+  background: #fff url('/acg-brand-bg.png') no-repeat center top;
+  background-size: cover;
+}
+
+.acgBackgroundInner {
+  @apply flex flex-col md:flex-row flex-nowrap md:flex-wrap justify-center items-center max-w-5xl mx-auto;
+}
+
+.acgBackground a {
+  @apply w-1/2 md:w-1/4 px-10 mb-5 md:mb-0;
+}
