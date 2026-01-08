@@ -120,13 +120,13 @@ footer p {
 }
 
 .acgBackground {
-  @apply w-full py-20;
+  @apply w-full max-w-screen-2xl mx-auto py-28;
   background: #fff url('/acg-brand-bg.png') no-repeat center top;
   background-size: cover;
 }
 
 .acgBackgroundInner {
-  @apply flex flex-col md:flex-row flex-nowrap md:flex-wrap justify-center items-center max-w-5xl mx-auto;
+  @apply flex flex-col md:flex-row flex-nowrap md:flex-wrap justify-center items-center max-w-5xl mx-auto py-12;
 }
 
 .acgBackground a {

@@ -102,7 +102,7 @@ export default function Home() {
             <h1 id="PressReleases" className="text-center my-5 text-4xl uppercase">Press Releases</h1>
             <ul className="pr-links">
               <li>
-                <div>December 18, 2025</div>
+                <div>January 13, 2026</div>
                 <a href="/audio-collective-group-launches-to-expand-sales-and-distribution-for-music-industry-brands">
                   Audio Collective Group Launches to Expand Sales & Distribution for Music Industry Brands
                 </a>
