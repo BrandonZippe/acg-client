@@ -140,8 +140,8 @@ export default function Home() {
               </li>
               <li>
                 <div>March 18, 2024</div>
-                <a href="/rocknroller-multi-cart-announces-worldwide-licensing-agreement-with-warm-audio">
-                RockNRoller® Multi-Cart® Announces WorldWide Licensing Agreement with Warm Audio
+                <a href="/rocknroller-multi-cart-announces-worldwide-licensing-agreement-with-audio-collective-group">
+                RockNRoller® Multi-Cart® Announces WorldWide Licensing Agreement with Audio Collective Group
                 </a>
               </li>
             </ul>
