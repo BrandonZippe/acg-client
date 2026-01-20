@@ -102,6 +102,12 @@ export default function Home() {
             <h1 id="PressReleases" className="text-center my-5 text-4xl uppercase">Press Releases</h1>
             <ul className="pr-links">
               <li>
+                <div>January 21, 2026</div>
+                <a href="/warm-audio-announces-retro-64-dynamic-live-microphone-for-vocals-and-instruments">
+                  Warm Audio Announces the Retro 64 Dynamic Live Microphone for Vocals & Instruments
+                </a>
+              </li>
+              <li>
                 <div>January 20, 2026</div>
                 <a href="/warm-audio-announces-the-fluff-drive-the-first-ever-signature-pedal-from-ryan-fluff-bruce-of-riffs-beards-and-gear">
                   Warm Audio Announces the Fluff Drive, The First-Ever Signature Pedal from Ryan “Fluff” Bruce of Riffs, Beards & Gear
