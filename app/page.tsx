@@ -102,6 +102,12 @@ export default function Home() {
             <h1 id="PressReleases" className="text-center my-5 text-4xl uppercase">Press Releases</h1>
             <ul className="pr-links">
               <li>
+                <div>January 22, 2026</div>
+                <a href="/tokai-guitars-returns-to-the-usa-through-audio-collective-group-distribution">
+                  Tokai Guitars Returns to the USA Through Audio Collective Group Distribution
+                </a>
+              </li>
+              <li>
                 <div>January 21, 2026</div>
                 <a href="/warm-audio-announces-retro-64-dynamic-live-microphone-for-vocals-and-instruments">
                   Warm Audio Announces the Retro 64 Dynamic Live Microphone for Vocals & Instruments
