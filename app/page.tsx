@@ -96,6 +96,13 @@ export default function Home() {
             <h1 className="text-center my-5 text-4xl uppercase">Our Mission</h1>
             <p className="text-xl">At Audio Collective Group, our mission is to strengthen the music industry by supporting and scaling the brands that fuel it. We provide a shared backbone of operational excellence so that each brand can focus on what matters most: designing exceptional products for musicians, producers, engineers, and creators at every level. When we lift up the brands behind the music, we lift up the music itself.</p>
           </div>
+          <div className="md:py-16 max-w-5xl mx-auto p-5">
+            <h1 className="text-center mb-5 text-4xl uppercase">How We Do It</h1>
+            <p className="text-xl">We support audio brands by moving inventory into the market through established wholesale and distribution channels, helping products reach retailers, studios, and creators efficiently and reliably. Building strong retail presence and market access is the foundation of how we help brands grow.</p>
+            <p className="text-xl">Alongside this foundation, we partner with brands to strengthen awareness with the right audiences, without losing what makes them unique. This can include sharpening existing branding and creative assets, offering guidance on brand storytelling and presentation, or developing extensive marketing campaigns where requested. The focus is not on reinvention, but on helping strong branding translate effectively at scale.</p>
+            <p className="text-xl">To support this, we help brands gain visibility through targeted advertising in key MI publications and media outlets, along with coordinated campaigns across platforms like Instagram, YouTube, and beyond, reaching musicians, creators, and buyers where they already engage.</p>
+            <p className="text-xl">Together, this combination of sales execution and marketing support is how we help audio brands build momentum, expand their reach, and succeed in the market.</p>
+          </div>
           <h1 className="text-center my-5 text-4xl uppercase">Contact Us</h1>
           <Form />
           <div className="md:py-16 max-w-5xl mx-auto p-5">
