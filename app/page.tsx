@@ -101,7 +101,7 @@ export default function Home() {
             <p className="text-xl mb-5">We support audio brands by moving inventory into the market through established wholesale and distribution channels, helping products reach retailers, studios, and creators efficiently and reliably. Building strong retail presence and market access is the foundation of how we help brands grow.</p>
             <p className="text-xl mb-5">Alongside this foundation, we partner with brands to strengthen awareness with the right audiences, without losing what makes them unique. This can include sharpening existing branding and creative assets, offering guidance on brand storytelling and presentation, or developing extensive marketing campaigns where requested. The focus is not on reinvention, but on helping strong branding translate effectively at scale.</p>
             <p className="text-xl mb-5">To support this, we help brands gain visibility through targeted advertising in key MI publications and media outlets, along with coordinated campaigns across platforms like Instagram, YouTube, and beyond, reaching musicians, creators, and buyers where they already engage.</p>
-            <p className="text-xl mb-5">Together, this combination of sales execution and marketing support is how we help audio brands build momentum, expand their reach, and succeed in the market.</p>
+            <p className="text-xl mb-5">Together, this combination of sales execution, along with logistics, distribution & delivery of MI gear, and marketing support is how we help audio brands build momentum, expand their reach, and succeed in the market.</p>
           </div>
           <h1 className="text-center my-5 text-4xl uppercase">Contact Us</h1>
           <Form />
