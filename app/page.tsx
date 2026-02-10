@@ -68,6 +68,16 @@ export default function Home() {
               priority
             />
           </a>
+          <a href="https://mksound.com/" target="_blank" className="w-full md:w-1/4">
+            <Image
+              className="w-full"
+              src="/mksound-logo.png"
+              alt="M&K Sound"
+              width={500}
+              height={600}
+              priority
+            />
+          </a>
           <a href="https://tokaiguitars.com/" target="_blank" className="w-full md:w-1/4">
             <Image
               className="w-full"
