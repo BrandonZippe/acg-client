@@ -119,6 +119,12 @@ export default function Home() {
             <h1 id="PressReleases" className="text-center my-5 text-4xl uppercase">Press Releases</h1>
             <ul className="pr-links">
               <li>
+                <div>April 7, 2026</div>
+                <a href="/audio-collective-group-announces-exclusive-us-distribution-of-m-and-k-sound-loudspeakers">
+                Audio Collective Group Announces Exclusive U.S. Distribution of M&K Sound Loudspeakers
+                </a>
+              </li>
+              <li>
                 <div>January 22, 2026</div>
                 <a href="/tokai-guitars-returns-to-the-usa-through-audio-collective-group-distribution">
                   Tokai Guitars Returns to the USA Through Audio Collective Group Distribution
