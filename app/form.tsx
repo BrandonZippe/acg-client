@@ -66,6 +66,38 @@ export default function Form() {
                     field="company"
                     errors={state.errors}
                     />
+                    <label htmlFor="location">
+                    Location
+                    </label>
+                    <input
+                    id="location"
+                    type="location" 
+                    name="location"
+                    placeholder='Location'
+                    className="w-full"
+                    required
+                    />
+                    <ValidationError 
+                    prefix="location" 
+                    field="location"
+                    errors={state.errors}
+                    />
+                    <label htmlFor="brand">
+                    Brand of Interest
+                    </label>
+                    <input
+                    id="brand"
+                    type="brand" 
+                    name="brand"
+                    placeholder='Brand of Interest'
+                    className="w-full"
+                    required
+                    />
+                    <ValidationError 
+                    prefix="brand" 
+                    field="brand"
+                    errors={state.errors}
+                    />
                     <label htmlFor="message">
                     Message 
                     </label>
